@@ -1,0 +1,114 @@
+Hyytelösankarit 3.5
+===================
+
+Avaa index.html selaimessa (tietokone) tai asenna kotiin ohjeella MOBIILI_ASENNUS.md.
+Julkaisutiedot: RELEASE_NOTES.md (myös aulassa).
+
+UUTTA 3.5
+---------
+• Puhelin ja tabletti: virtuaaliohjain, toimintanapit ja kameran pyöritys sormella.
+• Puhelimessa oletuksena 1 pelaaja; tabletissa vaakaan 2 pelaajaa (omat puolet).
+• Näppäimistö ja ohjaimet toimivat tietokoneella ennallaan.
+• Mobiili-grafiikka (automaattisesti kosketuslaitteilla): kevyt, ei varjoja.
+• Asennettava kotinäyttöön (PWA), toimii ilman nettiä ensimmäisen latauksen jälkeen.
+
+Aiemmat versiot:
+
+Hyytelösankarit 3.4
+===================
+
+Avaa index.html Chromessa / Edgessä / Bravessa. Toimii ilman nettiä (three.js mukana).
+Pelaajille suunnatut julkaisutiedot: RELEASE_NOTES.md (myös aulassa).
+
+UUTTA 3.4
+---------
+• Seinien läpi ei enää kävellä (talo, autotalli, sirkus, maanalainen). Käytävät leveämpiä.
+• Sirkuksesta tullaan ulos aivan teltan oven eteen.
+• Lentokenttä on kylän lähellä (x=−88, z=−92); kone näyttää enemmän oikealta lentokoneelta.
+• Autotallin salaluukun vipu on sivuseinällä (ei vahinkoklikkauksia).
+• Reseptilista täyttyy vihreäksi aineksien mukaan; jääkaapissa on mausteet.
+• Valmis ruoka ilmestyy ruokapöytään – istu ja syö.
+• Jokaisella hahmolla on oma lompakko (P1: B, P2: −, ohjain: View/Create).
+• Maan alla merkitty naapuritunneli, jota voi kaivaa lapiolla molemmista päistä.
+• Teleporttiase: valitse kohde kartalta (käveltävä paikka).
+
+Aiemmat versiot:
+
+UUTTA 3.3
+---------
+• Sujuvampi grafiikka: kaukaiset sisätilat (maan alla, sirkus, observatorio)
+  päivitetään vain kun joku on lähellä; kuvapistetiheys rajataan laatutason mukaan.
+  F3 näyttää FPS:n ja piirtokutsut (pois päältä oletuksena).
+• Sisällä kotona, autotallissa ja salaluukussa kamera on automaattisesti
+  first person, ulkona palaa normaaliin. Sohvalta nouseminen ei jää TV-pöytään.
+• Maan alle lisää juttuja joka huoneeseen: arkku, salainen kirjahylly,
+  karttavinkki ja vipupalapeli (palkinnoissa yhä 60 s jäähtyminen ja rahakatto).
+• Sirkus täytetty: viirit, valoketju, katsomo, popcorn- ja karkkikoju,
+  norsu Elli ja hylje Hilla.
+• Yhteinen lentokone (lännen kenttä): Kiina, Egypti, Japani, USA ja Ruotsi.
+  Kohde rakennetaan vain käynnin ajaksi; koneella pääsee myös kotiin.
+• Vuorokausi: yö ja tähdet (noin 6 min kierto). Pimeällä jokainen saa
+  automaattisesti otsalampun, joka sammuu aamulla. Yö ei ole liian pimeä.
+
+Aiemmat versiot:
+
+UUTTA 3.2
+---------
+• Aulan kortti "Uutta v3.1": 12 yhteistyöpaikkaa ja karttavihjeet (sulje ohjaimen B:llä)
+• Salaluukku autotallin takaseinän vivusta (hillitty, ei hehkuvaa kylttiä)
+  – tikkaat Indiana Jones -henkiseen maanalaiseen: kivikäytävät, kammiot,
+    köysisilta, lyhdyt, karttapöytä ja onnenpatsas (pieni aarre, jäähtyminen)
+  – takaisin ylös samoja tikkaita
+• Kuun tukikohdan merkkilippu: aja LRV:llä lipulle
+• Kuun observatorio käyttää jaettua rakennuskoodia; modulit rekisteröityvät H.define/H.when
+
+Aiemmat versiot:
+
+UUTTA 3.1
+---------
+12 yhteistyöideaa (erä A toimii myös yksin; erä B alkaa 2 pelaajalla):
+• Kylän yhteinen arkku (tori, 📦) – vie ja ota tavaroita
+• Auttamispisteet 🤝 pistetaulun rinnalla (ruoka, korjaus, pelastus, haravointi…)
+• Onnenketju: NPC:lle annettu ruoka antaa onnea myös lähimmälle kaverille
+• Kylän puutarha – kastele, korjaa sato, sato jaetaan
+• Talkoot: haravointi, lumenluonti ja sienestys kasvattavat kyläbonusta
+• Toripäivä: täyttäkää koju yhdessä, voitto jaetaan
+• Pelastuspartio (📡): kaveri jumissa kuussa, merellä tai sirkuksessa
+• Paraati / yhteislaulu: kävelkää reitti, konfettibonus
+• Yhteinen keittiöilta: iso resepti, aineksia vähintään 2 pelaajalta
+• Sirkusshow yhdessä (trapetsi, kanuuna, valot; 2 p = valot automaattiset)
+• Rakennusprojekti: silta, maja, majakka – jokainen tuo osia
+• Kuun tukikohta: kuski / korjaaja / energia (2 p = energia+korjaus)
+
+Aiemmat versiot:
+
+UUTTA 3.0
+---------
+• Lehtipuut (koivu, vaahtera) + putoavat lehdet; harava lähellä puita
+• Omenapuut kotien ympärillä — omenoita voi poimia ruoanlaittoon
+• Koteihin jääkaappi, hylly ja liesi; reseptilista (pizza, sushi, puuro…)
+  – ainekset jääkaapista/hyllystä/repusta; harmaat = puuttuu aineksia
+  – valmistuu itsestään → reppuun; syö / anna kaverille / anna NPC:lle (onni + rahaa + sydänilmapallo)
+• Torilta ainekset; ruokasieniä metsiköissä
+• Listat ohjaimella (menuPad): d-pad/tatti, A valitse, B sulje
+• Max 12 pelaajaa (split-screen skaalautuu)
+• Sirkus: ulkoteltta → iso sisätila (trapetsi, nuora, klovnit, jonglööri, kanuuna, trampoliini, eläimet, valot, rummut)
+
+Aiemmat versiot (2.9 refactor, 2.8, …) alla / git-tageissa.
+
+UUTTA 2.7
+---------
+• Kuutiojuoksu (TV ch4): osumat tarkennettu
+  – piikit = kolmio vs pelaajalaatikko (≈2 px anteeksi)
+  – kuutiesteet = tarkka AABB, päälle voi laskeutua
+  – hitbox vastaa piirrettyä muotoa (ei enää isoa näkymätöntä aluetta)
+• Rakettimatkat planeetoille korjattu
+  – kohdevalitsin museoraketissa JA oman pihan raketissa
+  – kiertoradalla matka valittuun kohteeseen käynnistyy automaattisesti (hyppy ohittaa odotuksen)
+  – Saturnus / Venus / Mars / muut BODIES-kohteet rakentuvat lazy-worldina
+• Paluu Maahan planeetan PALUU-alustalta (E)
+
+2.6/2.5/2.4 mukana.
+
+Ohjaus sohvalla: ohjain = TV-peli, Backspace = nouse.
+Raketti: E kyytiin → valitse planeetta → odota kiertorata / kotiraketti lentää heti.
